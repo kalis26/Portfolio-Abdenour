@@ -65,16 +65,16 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row items-center justify-center pt-24 pb-24 border-[#1C1C1C] border-b">
+            <div className="flex flex-row items-center justify-center pt-24 pb-24 pl-20 pr-20 border-[#1C1C1C] border-b">
                 <p className={`md:w-2/3 flex-1 text-white text-[28px] leading-none text-center mt-10 mb-10 ${Hibana.className}`}>
                     Skilled in Photoshop, Illustrator, InDesign, and Canva Pro, with a strong eye for branding, layout, and color.
                     Adept at working in fast-paced environments and collaborating with cross-functional teams to meet tight deadlines.
-                    Native in Arabic and conversational in French and English.
+                    Fluent in Arabic, French, and English.
                 </p>
                 <div className="flex flex-1 flex-col gap-10 items-center justify-center">
-                    <div>
-                        <svg fill="#FFFFFF"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"  width="60px"
-                             height="60px" viewBox="0 0 512 512" enableBackground="new 0 0 512 512" xmlSpace="preserve">
+                    <div className="flex flex-row gap-10 items-center justify-center group">
+                        <svg fill="#F0F0F0"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"  width="60px"
+                             height="60px" viewBox="0 0 512 512" enableBackground="new 0 0 512 512" xmlSpace="preserve" className="group-hover:fill-white group-hover:scale-110 transition-all duration-300">
                             <g id="2069a460dcf28295e231f3111e037552">
                                 <path display="inline" d="M426.333,0.5H85.667C38.825,0.5,0.5,38.825,0.5,85.667v340.667c0,46.842,38.325,85.167,85.167,85.167
                         h340.667c46.842,0,85.167-38.325,85.167-85.167V85.667C511.5,38.825,473.175,0.5,426.333,0.5z M245.329,260.524
@@ -90,9 +90,13 @@ export default function About() {
                                 </path>
                             </g>
                         </svg>
+
+                        <div className="w-64 h-8 bg-white/10 rounded-full shadow-inner shadow-white/10 group-hover:scale-110 transition-all duration-300">
+                            <div className="w-60 h-full bg-white/90 rounded-full shadow-inner shadow-white/10"></div>
+                        </div>
                     </div>
-                    <div>
-                        <svg fill="#FFFFFF"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"  width="60px"
+                    <div className="flex flex-row gap-10 items-center justify-center group">
+                        <svg fill="#FFFFFF"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"  width="60px" className="group-hover:fill-white group-hover:scale-110 transition-all duration-300"
                              height="60px" viewBox="0 0 512 512" enableBackground="new 0 0 512 512" xmlSpace="preserve">
                             <g id="2069a460dcf28295e231f3111e03585e">
                                 <path display="inline" d="M227.593,217.991l19.188,60.091h-62.627l18.825-60.091c4.346-14.48,7.964-31.493,11.582-45.611h0.724
@@ -104,13 +108,15 @@ export default function About() {
                                 </path>
                             </g>
                         </svg>
+
+                        <div className="w-64 h-8 bg-white/10 rounded-full shadow-inner shadow-white/10 group-hover:scale-110 transition-all duration-300">
+                            <div className="w-[230px] h-full bg-white/90 rounded-full shadow-inner shadow-white/10"></div>
+                        </div>
                     </div>
-                    <div>
-                        <svg fill="#FFFFFF"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"  width="60px"
+                    <div className="flex flex-row gap-10 items-center justify-center group">
+                        <svg fill="#FFFFFF"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"  width="60px" className="group-hover:fill-white group-hover:scale-110 transition-all duration-300"
                              height="60px" viewBox="0 0 512 512" enableBackground="new 0 0 512 512" xmlSpace="preserve">
-
                         <g id="2069a460dcf28295e231f3111e035a9d">
-
                         <path display="inline" d="M337.803,268.126c0.728,3.618,1.085,7.964,1.085,11.586v26.423c0,4.708-0.357,9.05-1.447,13.033
                                 c-4.341,19.188-20.269,31.492-38.37,31.492c-28.232,0-44.162-23.528-44.162-55.745c0-32.943,15.93-58.281,44.523-58.281
                                 C319.704,236.634,333.822,250.752,337.803,268.126z M511.5,85.667v340.667c0,46.842-38.325,85.167-85.167,85.167H85.667
@@ -118,12 +124,13 @@ export default function About() {
                                  M171.661,138.536h-44.523v243.979h44.523V138.536z M384.864,382.515c-0.728-11.947-1.451-31.492-1.451-49.59V125.503h-44.525
                                 v99.909h-0.724c-7.959-13.031-25.338-23.167-49.59-23.167c-42.353,0-79.276,35.113-78.915,94.118
                                 c0,54.298,33.303,90.132,75.292,90.132c25.699,0,47.058-12.305,57.558-31.854h0.724l1.809,27.874H384.864z">
-
                         </path>
-
                         </g>
-
                         </svg>
+
+                        <div className="w-64 h-8 bg-white/10 rounded-full shadow-inner shadow-white/10 group-hover:scale-110 transition-all duration-300">
+                            <div className="w-[220px] h-full bg-white/90 rounded-full shadow-inner shadow-white/10"></div>
+                        </div>
                     </div>
                 </div>
             </div>
