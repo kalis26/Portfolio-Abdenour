@@ -1,5 +1,7 @@
+import { CalSans, Hibana } from "@/fonts";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import SmoothScrollLayout from "@/components/smoothscrolllayout";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,10 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${CalSans.className} ${Hibana.className} antialiased`}>
+        <SmoothScrollLayout>
+          {children}
+        </SmoothScrollLayout>
       </body>
     </html>
   );
